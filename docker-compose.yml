@@ -1,0 +1,14 @@
+version: "2"
+services:
+  app:
+    build:
+      context: .
+      args:
+        - HTTP_PROXY=http://api-test-01.lfs.local:3128
+    image: supercharge/supercharge-api
+    restart: always
+    ports:
+      - "8180:8080"    
+    environment:
+      - TZ=Australia/Melbourne      
+      - NODE_ENV=production

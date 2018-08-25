@@ -1,0 +1,38 @@
+{
+  "name": "super-charge",
+  "version": "1.0.0",
+  "description": "For super charge",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://3.149.12.5/supercharge/superCharge-api.git"
+  },
+  "keywords": [
+    "batch",
+    "update",
+    "vision",
+    "plus"
+  ],
+  "author": "Kevin Wang",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.9",
+    "dotenv": "^2.0.0",
+    "jsonfile": "^2.4.0",
+    "moment": "^2.17.1",
+    "oracledb": "^1.10.1",
+    "restify": "^4.3.0",
+    "swagger-tools": "^0.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "nock": "^8.0.0",
+    "supertest": "^2.0.0",
+    "tape": "^4.6.0"
+  }
+}
